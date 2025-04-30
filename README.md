@@ -17,14 +17,14 @@ Git + GitHub – Para control de versiones y gestión del código fuente.
 ## 🚧 Cómo empezar
 Para ejecutar el proyecto en un entorno local de desarrollo, sigue estos pasos:
 
-Clona el repositorio:
-
 ```bash
+## Clona el repositorio:
+
 git clone https://github.com/Diego-Oruezabal/portfolio-diego.git
 cd portfolio-diego
 
 ## Instala las dependencias necesarias:
-```bash
+
 npm install
 
 ## Inicia el servidor de desarrollo:
@@ -38,16 +38,5 @@ http://localhost
 
 
 
-## Portfolio Personal
-
-Este proyecto ha sido creado por **Diego Oruezabal** como parte de su portfolio personal. Es una landing page interactiva con animaciones, ideal para mostrar habilidades en desarrollo web moderno.
-
-## Getting Started
-
-Primero, ejecuta el servidor de desarrollo:
-
-```bash
-npm install
-npm run dev
 
 
