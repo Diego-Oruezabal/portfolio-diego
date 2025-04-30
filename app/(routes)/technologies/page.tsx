@@ -19,6 +19,8 @@ const TechnologiesPage = () => {
             <TransitionPage />
            
       <MaskContainer
+        size={50}
+        revealSize={300}
         revealText={
           <p className="mx-auto max-w-4xl text-center text-4xl font-bold text-slate-200 dark:text-white">
           
@@ -32,8 +34,10 @@ const TechnologiesPage = () => {
         <span className="text-blue-500">Estudiando</span> y
         <span className="text-blue-500">Aprendiendo</span>.
       </MaskContainer>
-    
-        <IconCloudDemo />
+
+        <div className='mb-20'>
+             <IconCloudDemo />
+        </div>
             
         </>
     );
