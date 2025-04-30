@@ -64,7 +64,7 @@ export const itemsNavbar = [
         id: 6,
         title: "Contact",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
+        link: "/contact",
     },
 ];
 
