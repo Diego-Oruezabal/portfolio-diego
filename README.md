@@ -1,10 +1,6 @@
 ## 🚀 Portfolio Personal – Diego Oruezabal
 Este proyecto lo desarrollé como parte de mi portfolio profesional. Es una landing page interactiva, con un diseño limpio, animaciones atractivas y una estructura moderna, pensada para mostrar mis habilidades en desarrollo web frontend.
 
-Este proyecto está inspirado en un diseño original de TarreDev. Tomé como referencia su estructura visual y estilo de animaciones, y lo adapté a mi enfoque personal y necesidades como desarrollador.
-
-Agradezco a la comunidad open source por compartir ideas y permitir que otros podamos aprender, mejorar y construir sobre esas bases.
-
 ## 🙌 Inspiración y créditos
 Este proyecto está inspirado en un diseño original de TarreDev, cuyo trabajo puede verse en su sitio web personal: tarredev.com.
 
