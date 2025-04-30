@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="mx-auto max-w-4xl text-center text-4xl font-bold text-slate-200 dark:text-white">
 
             <span className="text-orange-500"> Ponte en contacto </span>
-            conmigo.
+            conmigo 👋
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">
