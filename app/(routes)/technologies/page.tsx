@@ -19,7 +19,7 @@ const TechnologiesPage = () => {
             <TransitionPage />
            
       <MaskContainer
-        size={50}
+        size={30}
         revealSize={300}
         revealText={
           <p className="mx-auto max-w-4xl text-center text-4xl font-bold text-slate-200 dark:text-white">
