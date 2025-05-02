@@ -25,6 +25,7 @@
     "react-hook-form": "^7.56.1",
     "react-parallax-tilt": "^1.7.286",
     "react-type-animation": "^3.2.0",
+    "resend": "^4.5.0",
     "swiper": "^11.0.6",
     "tailwind-merge": "^3.0.2",
     "tsparticles": "^3.2.1",
