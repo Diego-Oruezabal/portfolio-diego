@@ -1,5 +1,3 @@
-// re_csNAJzAe_JNWmdgCGxkXdrSqPZMYZD79F
-
 import { EmailTemplate } from '@/components/email.template';
 import { Resend } from 'resend';
 
