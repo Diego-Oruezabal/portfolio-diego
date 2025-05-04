@@ -28,10 +28,11 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                    Desarrollador de software con visión empresarial, combinando formación en ADE, MBA y especialización en desarrollo de aplicaciones web (DAW).
+                    <p className="mx-auto mb-4 text-xl md:text-xl md:mx-0 md:mb-8">
+                    Desarrollador de software con formación en <span className="font-bold text-secondary">ADE</span>, <span className="font-bold text-secondary">MBA</span> y titulación superior en <span className="font-bold text-secondary">desarrollo web (DAW)</span>. 
+                    <p className="mx-auto mb-4 my-2 text-xl md:text-xl md:mx-0 md:mb-8">Combino una visión estratégica con habilidades técnicas para crear soluciones eficientes y alineadas con los objetivos de negocio.</p>
                     </p>
-                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8"> Mi enfoque: crear soluciones que optimicen procesos y aporten valor real al negocio.
+                    <p className="mx-auto my-2 text-lg md:text-xl md:mx-0 italic text-gray-300"> Mi enfoque: crear soluciones que optimicen procesos y aporten valor real al proyecto.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
