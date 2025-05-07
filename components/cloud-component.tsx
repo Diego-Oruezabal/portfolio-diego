@@ -31,6 +31,7 @@ export function IconCloudDemo() {
         'java.webp',
         'github.webp',
         'angular.webp',
+        'workbench.jpg',
         
       ];
 

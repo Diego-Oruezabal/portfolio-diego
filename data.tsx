@@ -170,7 +170,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Portfolio personal",
-        image: "/image-portfolio.jpg",
+        image: "/image-portfolio2.jpg",
         urlGithub: "https://github.com/Diego-Oruezabal/portfolio-diego",
         urlDemo: "https://doom-portfolio.netlify.app/",
     },
@@ -306,7 +306,7 @@ export const dataTrainingPage = [
         id: 2,
         title: "Estudios en Grado de Ingeniería Informática",
         subtitle: "Universitat Oberta Catalunya",
-        description: "Sin terminar",
+        description: "Sin finalizar",
         date: "2018",
     },
     {
