@@ -311,7 +311,7 @@ export const dataTrainingPage = [
     },
     {
         id: 3,
-        title: "Asesoramiento Financiero (EFA)",
+        title: "European Financial Advisor (EFA)",
         subtitle: "Instituto de Estudios Bursátiles (Madrid)",
         description: "",
         date: "2011",
