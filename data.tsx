@@ -318,7 +318,7 @@ export const dataTrainingPage = [
     },
     {
         id: 4,
-        title: "MBA - Master in Business Administration",
+        title: "Master in Business Administration (MBA)",
         subtitle: "Escuela Europea de Negocios",
         description: "",
         date: "2005",
