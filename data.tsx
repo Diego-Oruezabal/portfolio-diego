@@ -176,10 +176,10 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Clon de ChatGPT con personalidades",
+        image: "/rolGpt.jpg",
+        urlGithub: "https://github.com/Diego-Oruezabal/rolGpt",
+        urlDemo: "https://rolgpt.netlify.app/",
     },
     {
         id: 3,
