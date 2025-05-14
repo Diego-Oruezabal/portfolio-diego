@@ -9,13 +9,15 @@ Tomé como referencia su enfoque visual y la integración de animaciones para cr
 Agradezco a la comunidad open source y a creadores como TarreDev por compartir sus ideas y permitirnos aprender, crecer y construir sobre esas bases.
 
 ## 🛠️ Tecnologías que usé
-React – Para construir la interfaz de usuario.
+Next.js – Para estructurar la aplicación con capacidades de renderizado del lado del servidor y optimización automática.
 
-Vite – Como herramienta de desarrollo rápida y eficiente.
+React – Para construir componentes reutilizables de la interfaz de usuario.
 
-Tailwind CSS – Para el diseño responsivo y moderno.
+Vite – (Inicialmente usado, pero luego sustituido por Next.js en versiones posteriores).
 
-Framer Motion – Para animaciones suaves e interactivas.
+Tailwind CSS – Para un diseño responsivo, moderno y altamente personalizable.
+
+Framer Motion – Para animaciones suaves, atractivas e interactivas.
 
 Git + GitHub – Para control de versiones y gestión del código fuente.
 
