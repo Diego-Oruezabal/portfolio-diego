@@ -40,7 +40,7 @@ npm run dev
 
 ## Abre tu navegador y visita:
 
-http://localhost
+[http://localhost](http://localhost:3000)
 
 
 
