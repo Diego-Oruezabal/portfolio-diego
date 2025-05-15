@@ -191,7 +191,7 @@ export const dataPortfolio = [
     {
         id: 4,
         title: "Portfolio personal Versión 1.0",
-        image: "/portfolio_1.0",
+        image: "/portfolio_1.0.png",
         urlGithub: "https://github.com/Diego-Oruezabal/portfolio_CV",
         urlDemo: "https://cv-portfolius.netlify.app/",
     },
