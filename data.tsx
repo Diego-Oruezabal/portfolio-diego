@@ -169,7 +169,7 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Portfolio personal",
+        title: "Portfolio personal Versión 2.0",
         image: "/image-9.jpg",
         urlGithub: "https://github.com/Diego-Oruezabal/portfolio-diego",
         urlDemo: "https://doom-portfolio.netlify.app/",
@@ -190,10 +190,10 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Portfolio personal Versión 1.0",
+        image: "/portfolio_1.0",
+        urlGithub: "https://github.com/Diego-Oruezabal/portfolio_CV",
+        urlDemo: "https://cv-portfolius.netlify.app/",
     },
     {
         id: 5,
@@ -218,7 +218,7 @@ export const dataPortfolio = [
     },
     {
         id: 8,
-        title: "E-commerce web",
+        title: "Ideas Creativas",
         image: "/image-8.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
