@@ -182,11 +182,11 @@ export const dataPortfolio = [
         urlDemo: "https://rolgpt.netlify.app/",
     },
     {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+       id: 3,
+        title: "Cotizador de criptomonedas",
+        image: "/Crypto.png",
+        urlGithub: "https://github.com/Diego-Oruezabal/Criptomonedas",
+        urlDemo: "https://cripto-cotizator.netlify.app/",
     },
     {
         id: 4,
