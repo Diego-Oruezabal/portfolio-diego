@@ -6,16 +6,17 @@ import Tilt from 'react-parallax-tilt';
 interface PortfolioBoxProps {
     data: {
         id: number,
-        title: string
-        image: string
-        urlGithub: string
-        urlDemo: string
+        title: string,
+        image: string,
+        tech: string,
+        urlGithub: string,
+        urlDemo: string,
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { id, title, image, tech, urlDemo, urlGithub } = data
 
     return (
         <Tilt>
@@ -29,6 +30,9 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 alt="Image"
                 width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto"
             />
+
+           
+            <p className="mb-4 mt-4 text-sm text-yellow-200 italic">{tech}</p>
 
             <div className="flex gap-5 mt-5">
                 <Link
