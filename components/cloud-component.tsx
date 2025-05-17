@@ -32,6 +32,7 @@ export function IconCloudDemo() {
         'github.webp',
         'angular.webp',
         'workbench.jpg',
+        'postman.webp',
         
       ];
 
