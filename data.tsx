@@ -230,6 +230,14 @@ export const dataPortfolio = [
         tech: "PHP, Laravel, Blade, MySQL",
         urlGithub: "https://github.com/Diego-Oruezabal/Asist",
         urlDemo: "#!",
+    },
+   {
+        id: 9,
+        title: "Portal de Noticias",
+        image: "/coding.jpg",
+        tech: "Angular, Spring Boot",
+        urlGithub: "https://github.com/Diego-Oruezabal/portalNews",
+        urlDemo: "#!",
     }
 ];
 
