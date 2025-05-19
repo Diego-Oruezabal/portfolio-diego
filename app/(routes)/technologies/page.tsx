@@ -38,6 +38,10 @@ const TechnologiesPage = () => {
         <div className='mb-20'>
              <IconCloudDemo />
         </div>
+
+        <p className="pb-20 mx-auto max-w-3xl mb-4 my-2 text-xl text-center md:text-xl md:mb-8 ">
+          Utilizo tecnologías <span className="font-bold text-orange-400"> Front-End</span> como React, Next.js, Angular y JavaScript, y <span className="font-bold text-orange-400">Back-End</span> como Java, Spring Boot, PHP, Laravel y bases de datos SQL.
+        </p>
             
         </>
     );
