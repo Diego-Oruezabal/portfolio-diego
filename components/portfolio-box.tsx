@@ -43,13 +43,19 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                     Github
                 </Link>
 
-                <Link
-                    href={urlDemo}
-                    target="_blank"
-                    className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
-                >
-                    Live demo
-                </Link>
+                    {urlDemo === "#!" ? (
+                        <span className="p-2 text-sm text-gray-400 italic">
+                            Demo n/d
+                        </span>
+                    ) : (
+                        <Link
+                            href={urlDemo}
+                            target="_blank"
+                            className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
+                        >
+                            Live demo
+                        </Link>
+                    )}
             </div>
         </div>
         </Tilt>
