@@ -11,7 +11,7 @@ export default function LanguageSwitcher() {
   const switchTo = isSpanish
     ? pathname.replace(/^\/es/, '/en')
     : pathname.replace(/^\/en/, '/es');
-  const flagSrc = isSpanish ? '/USA.png' : '/ES.png';
+  const flagSrc = isSpanish ? '/usa.png' : '/es.png';
   const altText = isSpanish ? 'Switch to English' : 'Cambiar a Español';
   return (
     <Link
