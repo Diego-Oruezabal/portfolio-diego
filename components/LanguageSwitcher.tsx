@@ -16,7 +16,7 @@ export default function LanguageSwitcher() {
   return (
     <Link
       href={switchTo}
-      className="px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary border border-red-500"
+      className="px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary"
     >
      <Image
       src={flagSrc}
