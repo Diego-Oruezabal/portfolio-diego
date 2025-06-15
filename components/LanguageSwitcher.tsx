@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
@@ -10,20 +11,20 @@ export default function LanguageSwitcher() {
   const switchTo = isSpanish
     ? pathname.replace(/^\/es/, '/en')
     : pathname.replace(/^\/en/, '/es');
-
   const flagSrc = isSpanish ? '/usa.png' : '/es.png';
   const altText = isSpanish ? 'Switch to English' : 'Cambiar a Español';
-
   return (
     <Link
       href={switchTo}
-      className="px-3 py-2 rounded-full hover:bg-secondary flex items-center justify-center"
+      className="px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary border border-red-500"
     >
-      <img
-        src={flagSrc}
-        alt={altText}
-        className="w-9 h-9 rounded-full object-cover"
-      />
+     <Image
+      src={flagSrc}
+      alt={altText}
+      width={35}
+      height={35}
+      className="rounded-full"
+    />
     </Link>
   );
 }

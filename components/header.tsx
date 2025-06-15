@@ -7,7 +7,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
     return (
-        <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5 md:top-10 px-20">
+        <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5 md:top-10 px-4 sm:px-10 md:px-20" >
             <header>
                 <div className="container flex flex-col items-center md:flex-row md:justify-between max-w-6xl mx-auto">
 
