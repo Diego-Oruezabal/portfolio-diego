@@ -1,7 +1,12 @@
 import { dataCounter } from "@/data";
+import { getDataCounter } from "@/data";
+import { usePathname } from "next/navigation";
 import CountUp from "react-countup";
 
 const CounterServices = () => {
+  const pathname = usePathname();
+  const lang = pathname.startsWith("/en") ? "en" : "es";
+  const dataCounter = getDataCounter(lang);
     return (
         <div className="grid justify-between max-w-3xl grid-cols-2 gap-3 mx-auto my-8 md:flex md:grid-cols-4 md:gap-6">
             {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (

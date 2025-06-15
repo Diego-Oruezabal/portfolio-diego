@@ -1,6 +1,13 @@
 import { dataAboutPage } from "@/data";
+import { usePathname } from "next/navigation";
+import { getDataAboutPage } from "@/data";
 
 const TimeLine = () => {
+
+  const pathname = usePathname();
+  const lang = pathname.startsWith("/en") ? "en" : "es";
+  const dataAboutPage = getDataAboutPage(lang);
+
     return (
         <div className="flex flex-col justify-center divide-y divide-slate-200">
             <div className="w-full max-w-3xl mx-auto md:pb-40 md:pt-20">

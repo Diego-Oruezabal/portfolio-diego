@@ -1,5 +1,49 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Phone, Github, Mail, Ghost } from "lucide-react";
 
+
+// Datos base para el navbar (sin textos)
+const baseItems = [
+  { id: 1, icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />, link: { es: "/es", en: "/en" } },
+  { id: 2, icon: <UserRound size={25} color="#fff" strokeWidth={1} />, link: { es: "/es/about-me", en: "/en/about-me" } },
+  { id: 3, icon: <BookText size={25} color="#fff" strokeWidth={1} />, link: { es: "/es/training", en: "/en/training" } },
+  { id: 4, icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />, link: { es: "/es/portfolio", en: "/en/portfolio" } },
+  { id: 5, icon: <Ghost size={25} color="#fff" strokeWidth={1} />, link: { es: "/es/technologies", en: "/en/technologies" } },
+  { id: 5, icon: <Speech size={25} color="#fff" strokeWidth={1} />, link: { es: "/es/contact", en: "/en/contact" } },
+];
+
+
+// Traducción de los títulos por idioma
+const titlesNavbar = {
+  es: ["Inicio", "Sobre mí", "Formación", "Portfolio", "Contacto"],
+  en: ["Home", "About me", "Training", "Portfolio", "Contact"],
+};
+
+// Función para obtener el navbar con los textos según idioma
+export function getItemsNavbar(lang: "es" | "en") {
+  return baseItems.map((item, index) => ({
+    ...item,
+    link: item.link[lang], // ← link correcto según idioma
+    title: titlesNavbar[lang][index],
+  }));
+}
+
+export const getDataAboutPage = (lang: "en" | "es") => {
+  return lang === "en" ? dataAboutPageEn : dataAboutPage;
+};
+
+export const getDataCounter = (lang: "en" | "es") => {
+    return lang === "en" ? dataCounterEn : dataCounter;
+};
+
+export const getDataTrainingPage = (lang: "en" | "es") =>
+  lang === "en" ? dataTrainingPageEn : dataTrainingPage;
+
+export const getCertifications = (lang: "en" | "es") =>
+  lang === "en" ? certificationsEn : certifications;
+
+export const getLanguages = (lang: "en" | "es") =>
+  lang === "en" ? languagesEn : languages;
+
 export const socialNetworks = [
     {
         id: 1,
@@ -107,6 +151,47 @@ export const dataAboutPage = [
     },
 ]
 
+export const dataAboutPageEn = [
+  {
+    id: 1,
+    title: "Director - Manager",
+    subtitle: "Zeibalk 12",
+    description:
+      "Direction and management of a 15-person team. Responsible for administration, accounting, HR, and quality. Community manager and digital strategy development.",
+    date: "2008 - Pres.",
+  },
+  {
+    id: 2,
+    title: "Business Manager",
+    subtitle: "Banco Santander",
+    description:
+      "Sales tasks, client acquisition, and portfolio management.",
+    date: "2007 - 2008",
+  },
+  {
+    id: 3,
+    title: "Labor Department Manager",
+    subtitle: "García & Villalobos, Advisory Group",
+    description: "Management of labor, taxation, and accounting departments.",
+    date: "2006 - 2007",
+  },
+  {
+    id: 4,
+    title: "Internal Auditor",
+    subtitle: "Terrés construction company",
+    description: "Internal accounting audit.",
+    date: "2005",
+  },
+  {
+    id: 5,
+    title: "Internal Trade, Tourism and Industry Technician",
+    subtitle: "Chamber of Commerce of Granada",
+    description:
+      "Consulting and report writing for public administration. Project development manager.",
+    date: "2005",
+  },
+];
+
 export const dataCounter = [
     {
         id: 0,
@@ -133,6 +218,37 @@ export const dataCounter = [
         id: 3,
         endCounter: 300,
         text: "Clientes satisfechos",
+        lineRight: false,
+        lineRightMobile: false,
+    },
+];
+
+export const dataCounterEn = [
+    {
+        id: 0,
+        endCounter: 15,
+        text: "Years of business experience",
+        lineRight: true,
+        lineRightMobile: true,
+    },
+    {
+        id: 1,
+        endCounter: 2,
+        text: "Years of Web Development experience",
+        lineRight: true,
+        lineRightMobile: false,
+    },
+    {
+        id: 2,
+        endCounter: 20,
+        text: "Completed projects",
+        lineRight: true,
+        lineRightMobile: true,
+    },
+    {
+        id: 3,
+        endCounter: 300,
+        text: "Satisfied clients",
         lineRight: false,
         lineRightMobile: false,
     },
@@ -240,6 +356,82 @@ export const dataPortfolio = [
         urlDemo: "#!",
     }
 ];
+
+export const dataPortfolioEn = [
+  {
+    id: 1,
+    title: "Personal Portfolio Version 2.0",
+    image: "/image-9.jpg",
+    tech: "Next.js, React, Tailwind CSS",
+    urlGithub: "https://github.com/Diego-Oruezabal/portfolio-diego",
+    urlDemo: "https://doom-portfolio.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "ChatGPT Clone with Personalities",
+    image: "/rolGpt.jpg",
+    tech: "HTML, JavaScript, CSS",
+    urlGithub: "https://github.com/Diego-Oruezabal/rolGpt",
+    urlDemo: "https://rolgpt.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Cryptocurrency Quoter",
+    image: "/Crypto.png",
+    tech: "HTML, JavaScript, CSS",
+    urlGithub: "https://github.com/Diego-Oruezabal/Criptomonedas",
+    urlDemo: "https://cripto-cotizator.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Personal Portfolio Version 1.0",
+    image: "/portfolio_1.0.png",
+    tech: "HTML, CSS",
+    urlGithub: "https://github.com/Diego-Oruezabal/portfolio_CV",
+    urlDemo: "https://cv-portfolius.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "REST API",
+    image: "/coding.jpg",
+    tech: "PHP, Laravel, Blade, MySQL",
+    urlGithub: "https://github.com/Diego-Oruezabal/api-project",
+    urlDemo: "#!",
+  },
+  {
+    id: 6,
+    title: "Courses Platform",
+    image: "/coding.jpg",
+    tech: "Next.js, React, PostgreSQL",
+    urlGithub: "https://github.com/Diego-Oruezabal/plataforma-cursos",
+    urlDemo: "#!",
+  },
+  {
+    id: 7,
+    title: "E-commerce",
+    image: "/coding.jpg",
+    tech: "PHP, Laravel, Blade, MySQL",
+    urlGithub: "https://github.com/Diego-Oruezabal/Ecommerce",
+    urlDemo: "#!",
+  },
+  {
+    id: 8,
+    title: "Attendance Control",
+    image: "/coding.jpg",
+    tech: "PHP, Laravel, Blade, MySQL",
+    urlGithub: "https://github.com/Diego-Oruezabal/Asist",
+    urlDemo: "#!",
+  },
+  {
+    id: 9,
+    title: "News Portal",
+    image: "/coding.jpg",
+    tech: "Angular, Spring Boot",
+    urlGithub: "https://github.com/Diego-Oruezabal/portalNews",
+    urlDemo: "#!",
+  },
+];
+
 
 export const dataTestimonials = [
     {
@@ -349,6 +541,46 @@ export const dataTrainingPage = [
     },
 ]
 
+
+export const dataTrainingPageEn = [
+  {
+    id: 1,
+    title: "Technician in Web Application Development (DAW)",
+    subtitle: "FOC Institute",
+    description: "",
+    date: "2025",
+  },
+  {
+    id: 2,
+    title: "Bachelor's Degree in Computer Engineering",
+    subtitle: "Open University of Catalonia",
+    description: "Not finished",
+    date: "2018",
+  },
+  {
+    id: 3,
+    title: "European Financial Advisor (EFA)",
+    subtitle: "Institute of Stock Market Studies (Madrid)",
+    description: "",
+    date: "2011",
+  },
+  {
+    id: 4,
+    title: "Master in Business Administration (MBA)",
+    subtitle: "European Business School",
+    description: "",
+    date: "2005",
+  },
+  {
+    id: 5,
+    title: "Bachelor’s Degree in Business Administration and Management",
+    subtitle: "University of Granada",
+    description: "",
+    date: "2004",
+  },
+];
+
+
 export const certifications = [
     {
         id: 1,
@@ -381,9 +613,22 @@ export const certifications = [
         
     },
 ]
+export const certificationsEn = [
+  { id: 1, title: "Database Foundations", subtitle: "ORACLE", description: "", date: "2024" },
+  { id: 2, title: "GNU/Linux Fundamentals", subtitle: "LINUX PROFESSIONAL INSTITUTE (LPI)", description: "", date: "2024" },
+  { id: 3, title: "Windows 10 Fundamentals", subtitle: "MICROSOFT IT ACADEMY", description: "", date: "2024" },
+  { id: 4, title: "Java Foundations", subtitle: "ORACLE", description: "", date: "2024" },
+];
 export const languages = [
     {
         id: 1,
+        title: "Español",
+        subtitle: "Nativo",
+        description: "",
+        date: "",
+    },
+     {
+        id: 2,
         title: "Inglés",
         subtitle: "British Council",
         description: "B2",
@@ -391,3 +636,11 @@ export const languages = [
     },
 
 ]
+
+export const languagesEn = [
+  { id: 1, title: "Spanish", subtitle: "Native", description: "", date: "" },
+  { id: 2, title: "English", subtitle: "British Council", description: "B2", date: "2020" },
+];
+
+
+

@@ -1,11 +1,17 @@
 import { certifications } from "@/data";
 
+import { usePathname } from "next/navigation";
+import { getCertifications } from "@/data";
+
 const TimeCertificationLine = () => {
+      const pathname = usePathname();
+      const lang = pathname.startsWith("/en") ? "en" : "es";
+      const data = getCertifications(lang);
     return (
         <div className="flex flex-col justify-center divide-y divide-slate-200">
             <div className="w-full max-w-3xl mx-auto md:pb-40 md:pt-20">
                 <div className="-my-6">
-                    {certifications.map((data) => (
+                    {data.map((data) => (
                         <div key={data.id} className="relative py-6 pl-8 sm:pl-32 group">
                             <h3 className="mb-1 text-2xl font-bold sm:mb-0">{data.title}</h3>
                             <div className="flex flex-col sm:flex-row items-start mb-1 

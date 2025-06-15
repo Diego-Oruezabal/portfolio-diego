@@ -3,6 +3,7 @@
 import { dataContact, socialNetworks } from "@/data";
 import Link from "next/link";
 import { MotionTransition } from "./transition-component";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
     return (
@@ -25,8 +26,11 @@ const Header = () => {
                            </Link>
                        </div>
                         ))}
+                         <LanguageSwitcher />
                     </div>
+                    
                 </div>
+                
             </header>
         </MotionTransition>
     );
