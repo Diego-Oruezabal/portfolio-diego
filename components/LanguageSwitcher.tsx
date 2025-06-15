@@ -21,9 +21,10 @@ export default function LanguageSwitcher() {
            <Image
         src={flagSrc}
         alt={altText}
-        width={35}
-        height={35}
-        className="rounded-full"
+        width={0}
+        height={0}
+        sizes="(max-width: 768px) 24px, 35px"
+        className="w-6 md:w-9 h-auto rounded-full"
       />
     </Link>
   );
