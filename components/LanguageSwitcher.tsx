@@ -18,14 +18,13 @@ export default function LanguageSwitcher() {
       href={switchTo}
       className="px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary border border-red-500"
     >
-           <Image
-        src={flagSrc}
-        alt={altText}
-        width={0}
-        height={0}
-        sizes="(max-width: 768px) 24px, 35px"
-        className="w-6 md:w-9 h-auto rounded-full"
-      />
+     <Image
+      src={flagSrc}
+      alt={altText}
+      width={35}
+      height={35}
+      className="rounded-full"
+    />
     </Link>
   );
 }
