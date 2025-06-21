@@ -502,6 +502,30 @@ export const dataContact = [
     },
 ];
 
+export const dataContactEn = [
+    {
+        id: 1,
+        title: "Phone",
+        subtitle: "+34 666 07 65 57",
+        link: "tel:+34666076557",
+        icon: <Phone />,
+    },
+    {
+        id: 2,
+        title: "Github",
+        subtitle: "github.com/Diego-Oruezabal",
+        link: "https://github.com/Diego-Oruezabal",
+        icon: <Github />,
+    },
+    {
+        id: 3,
+        title: "Email",
+        subtitle: "diegooruezabal@gmail.com",
+        link: "mailto:diegooruezabal@gmail.com",
+        icon: <Mail/>,
+    },
+];
+
 export const dataTrainingPage = [
     {
         id: 1,
