@@ -354,6 +354,14 @@ export const dataPortfolio = [
         tech: "Angular, Spring Boot",
         urlGithub: "https://github.com/Diego-Oruezabal/portalNews",
         urlDemo: "#!",
+    },
+    {
+        id: 10,
+        title: "El Patrón Singleton",
+        image: "/singleton.png",
+        tech: "Laravel, Blade",
+        urlGithub: "https://github.com/Diego-Oruezabal/blog_diego",
+        urlDemo: "https://elpatronsingleton.diegooru.com/",
     }
 ];
 
@@ -430,6 +438,14 @@ export const dataPortfolioEn = [
     urlGithub: "https://github.com/Diego-Oruezabal/portalNews",
     urlDemo: "#!",
   },
+    {
+        id: 10,
+        title: "Singleton Pattern",
+        image: "/singleton.png",
+        tech: "Laravel, Blade",
+        urlGithub: "https://github.com/Diego-Oruezabal/blog_diego",
+        urlDemo: "https://elpatronsingleton.diegooru.com/",
+    }
 ];
 
 

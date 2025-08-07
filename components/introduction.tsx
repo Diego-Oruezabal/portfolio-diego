@@ -45,7 +45,11 @@ const Introduction = () => {
                         <a href="/contact"
                             className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
                             Contacta conmigo
-                            
+                        </a>
+                          <a href="https://elpatronsingleton.diegooru.com/"
+                            className="relative px-4 py-2 my-5 border-2 text-md w-fit rounded-xl text-white hover:scale-105 transition-all hover:shadow-xl hover:shadow-white/50" >
+                            Visita mi Blog
+                            <span className="absolute top-0 right-0 bg-red-500 text-white text-xs px-1 rounded-full animate-bounce">Nuevo</span>
                         </a>
                        
                     </div>
