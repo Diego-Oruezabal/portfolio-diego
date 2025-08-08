@@ -344,7 +344,7 @@ export const dataPortfolio = [
         title: "Control Asistencias",
         image: "/coding.jpg",
         tech: "PHP, Laravel, Blade, MySQL",
-        urlGithub: "https://github.com/Diego-Oruezabal/Asist",
+        urlGithub: "https://github.com/Diego-Oruezabal/asistencias",
         urlDemo: "#!",
     },
    {
@@ -427,7 +427,7 @@ export const dataPortfolioEn = [
     title: "Attendance Control",
     image: "/coding.jpg",
     tech: "PHP, Laravel, Blade, MySQL",
-    urlGithub: "https://github.com/Diego-Oruezabal/Asist",
+    urlGithub: "https://github.com/Diego-Oruezabal/asistencias",
     urlDemo: "#!",
   },
   {
