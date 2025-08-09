@@ -342,7 +342,7 @@ export const dataPortfolio = [
     {
         id: 8,
         title: "Control Asistencias",
-        image: "/coding.jpg",
+        image: "/asistencias.png",
         tech: "PHP, Laravel, Blade, MySQL",
         urlGithub: "https://github.com/Diego-Oruezabal/asistencias",
         urlDemo: "#!",
@@ -425,7 +425,7 @@ export const dataPortfolioEn = [
   {
     id: 8,
     title: "Attendance Control",
-    image: "/coding.jpg",
+    image: "/asistencias.png",
     tech: "PHP, Laravel, Blade, MySQL",
     urlGithub: "https://github.com/Diego-Oruezabal/asistencias",
     urlDemo: "#!",
