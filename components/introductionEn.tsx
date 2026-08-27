@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
 
 const IntroductionEn = () => {
     return (
@@ -13,8 +14,31 @@ const IntroductionEn = () => {
                 />
 
                 <div className="flex flex-col justify-center max-w-md">
-                    <h1 className="mb-5 text-2xl font-bold leading-tight text-center md:text-left md:text-4xl md:mb-10">
-                        I connect <span className="text-secondary">business and technology</span> to solve real problems
+                    <h1
+                        className="mb-5 text-2xl font-bold leading-tight text-center md:text-left md:text-4xl md:mb-10"
+                        aria-label="I connect business and technology to solve real problems"
+                    >
+                        <span aria-hidden="true">
+                            I connect
+                            <TypeAnimation
+                                sequence={[
+                                    "business with technology",
+                                    1400,
+                                    "problems with solutions",
+                                    1400,
+                                    "processes with outcomes",
+                                    1400,
+                                    "compliance with efficiency",
+                                    1400,
+                                    "cloud with security",
+                                    1400,
+                                ]}
+                                wrapper="span"
+                                speed={50}
+                                repeat={Infinity}
+                                className="block min-h-[2.5em] text-secondary"
+                            />
+                        </span>
                     </h1>
 
                     <p className="mx-auto mb-4 text-xl md:mx-0 md:mb-8">
