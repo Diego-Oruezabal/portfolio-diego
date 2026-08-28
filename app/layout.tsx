@@ -23,10 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
+      <body className={`${urbanist.className} h-[100dvh] overflow-hidden`}>
+        <div className="relative h-[calc(100dvh-7rem)] overflow-x-hidden overflow-y-auto overscroll-contain">
+          <Header />
+          {children}
+        </div>
         <Navbar />
-        <Header />
-        {children}
       </body>
     </html>
   );

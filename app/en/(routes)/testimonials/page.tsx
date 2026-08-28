@@ -14,7 +14,7 @@ const TestimonialsPage = () => {
     return (
         <>
             <TransitionPage />
-            <div className='flex flex-col justify-center h-lvh'>
+            <div className='flex flex-col justify-center h-full min-h-full'>
                 <CircleImage />
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     Algunos comentarios
