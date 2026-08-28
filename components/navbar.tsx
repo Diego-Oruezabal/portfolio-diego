@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 
-import { itemsNavbar } from "@/data";
-
 import { MotionTransition } from "./transition-component";
 import { usePathname } from "next/navigation";
 
@@ -17,9 +15,12 @@ const Navbar = () => {
   const itemsNavbar = getItemsNavbar(lang);
 
   return (
-    <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
-      <nav>
-        <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
+    <MotionTransition
+      position="right"
+      className="pointer-events-none fixed inset-x-0 bottom-0 z-40 flex h-28 items-end justify-center bg-gradient-to-t from-[#1f1934] via-[#1f1934]/95 to-transparent pb-[max(1rem,env(safe-area-inset-bottom))]"
+    >
+      <nav className="pointer-events-auto">
+        <div className="flex items-center justify-center gap-2 px-4 py-1 border rounded-full shadow-lg border-white/10 bg-white/15 backdrop-blur-md shadow-black/25">
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
