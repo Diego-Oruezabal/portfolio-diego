@@ -115,9 +115,15 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Director gerente | Operaciones, calidad y digitalización",
-        subtitle: "Restaurante Chikito (Zeibalk 12) · Granada",
-        description: "Dirección integral del negocio y liderazgo de un equipo de 15 personas, con responsabilidad sobre operaciones, administración, contabilidad y gestión laboral. Gestión y seguimiento de los sistemas vinculados a la Q de Calidad Turística y a la certificación ISO 9001. Impulso de la presencia online y desarrollo de aplicaciones propias para digitalizar procesos internos, incluido el control horario y la gestión de asistencias.",
+        title: "Director gerente",
+        subtitle: "Restaurante Chikito · Granada",
+        description: "",
+        tags: ["Operaciones", "ISO 9001", "Digitalización", "Liderazgo"],
+        highlights: [
+            "Dirección de operaciones y liderazgo de un equipo de 15 personas.",
+            "Gestión de los sistemas Q de Calidad Turística e ISO 9001.",
+            "Desarrollo de aplicaciones internas para digitalizar el control horario y otros procesos operativos.",
+        ],
         date: "2008 - Act. ",
     },
     {
@@ -161,10 +167,15 @@ export const dataAboutPage = [
 export const dataAboutPageEn = [
   {
     id: 1,
-    title: "Managing Director | Operations, Quality & Digitalization",
-    subtitle: "Restaurante Chikito (Zeibalk 12) · Granada",
-    description:
-      "Comprehensive business management and leadership of a 15-person team, with responsibility for operations, administration, accounting, and HR management. Management and monitoring of the systems supporting the Spanish Tourism Quality Q Mark and ISO 9001 certification. Development of the establishment's online presence and proprietary applications to digitalize internal processes, including time tracking and attendance management.",
+    title: "Managing Director",
+    subtitle: "Restaurante Chikito · Granada",
+    description: "",
+    tags: ["Operations", "ISO 9001", "Digitalization", "Leadership"],
+    highlights: [
+      "Operations management and leadership of a 15-person team.",
+      "Management of the Spanish Tourism Quality Q Mark and ISO 9001 systems.",
+      "Development of internal applications to digitalize time tracking and other operational processes.",
+    ],
     date: "2008 - Pres.",
   },
   {

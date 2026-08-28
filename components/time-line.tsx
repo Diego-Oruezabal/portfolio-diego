@@ -28,7 +28,24 @@ const TimeLine = () => {
                                 <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">{data.date}</time>
                                 <div className="text-xl font-bold text-gray-400">{data.subtitle}</div>
                             </div>
-                            <div className="text-slate-400">{data.description}</div>
+                            {"tags" in data && (data.tags?.length ?? 0) > 0 && (
+                                <div className="flex flex-wrap gap-2 mt-3 mb-3">
+                                    {(data.tags ?? []).map((tag) => (
+                                        <span key={tag} className="px-3 py-1 text-xs font-semibold border rounded-full text-secondary border-secondary/40 bg-secondary/10">
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            )}
+                            {"highlights" in data && (data.highlights?.length ?? 0) > 0 ? (
+                                <ul className="pl-5 mt-3 space-y-2 leading-relaxed list-disc text-slate-400 marker:text-secondary">
+                                    {(data.highlights ?? []).map((highlight) => (
+                                        <li key={highlight}>{highlight}</li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                <div className="text-slate-400">{data.description}</div>
+                            )}
                         </div>
                     ))}
                 </div>
