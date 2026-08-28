@@ -114,6 +114,13 @@ export const itemsNavbar = [
 
 export const dataAboutPage = [
     {
+        id: 6,
+        title: "Desarrollador web WordPress y SEO",
+        subtitle: "Incorpora Marketing · Granada",
+        description: "Creación de sitios web corporativos con WordPress y Elementor. Optimización SEO on-page, estructura de contenidos y mejoras técnicas orientadas a reforzar el rendimiento y la visibilidad orgánica.",
+        date: "2025 - 2026",
+    },
+    {
         id: 1,
         title: "Director - Gerente",
         subtitle: "Zeibalk 12",
@@ -152,6 +159,14 @@ export const dataAboutPage = [
 ]
 
 export const dataAboutPageEn = [
+  {
+    id: 6,
+    title: "WordPress Web Developer & SEO",
+    subtitle: "Incorpora Marketing · Granada",
+    description:
+      "Creation of corporate websites with WordPress and Elementor. On-page SEO, content structure, and technical improvements aimed at strengthening performance and organic visibility.",
+    date: "2025 - 2026",
+  },
   {
     id: 1,
     title: "Director - Manager",
