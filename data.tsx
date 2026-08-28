@@ -122,9 +122,9 @@ export const dataAboutPage = [
     },
     {
         id: 1,
-        title: "Director - Gerente",
-        subtitle: "Zeibalk 12",
-        description: "Dirección y gestión de un equipo de 15 personas. Responsable de administración, contabilidad, laboral y calidad. Community manager y desarrollo de estrategias digitales.",
+        title: "Director gerente",
+        subtitle: "Restaurante Chikito (Zeibalk 12) · Granada",
+        description: "Dirección integral del negocio y liderazgo de un equipo de 15 personas, con responsabilidad sobre operaciones, administración, contabilidad y gestión laboral. Gestión y seguimiento de los sistemas vinculados a la Q de Calidad Turística y a la certificación ISO 9001. Impulso de la presencia online y desarrollo de aplicaciones propias para digitalizar procesos internos, incluido el control horario y la gestión de asistencias.",
         date: "2008 - Act. ",
     },
     {
@@ -169,10 +169,10 @@ export const dataAboutPageEn = [
   },
   {
     id: 1,
-    title: "Director - Manager",
-    subtitle: "Zeibalk 12",
+    title: "Managing Director",
+    subtitle: "Restaurante Chikito (Zeibalk 12) · Granada",
     description:
-      "Direction and management of a 15-person team. Responsible for administration, accounting, HR, and quality. Community manager and digital strategy development.",
+      "Comprehensive business management and leadership of a 15-person team, with responsibility for operations, administration, accounting, and HR management. Management and monitoring of the systems supporting the Spanish Tourism Quality Q Mark and ISO 9001 certification. Development of the establishment's online presence and proprietary applications to digitalize internal processes, including time tracking and attendance management.",
     date: "2008 - Pres.",
   },
   {
@@ -696,6 +696,5 @@ export const languagesEn = [
   { id: 1, title: "Spanish", subtitle: "Native", description: "", date: "" },
   { id: 2, title: "English", subtitle: "British Council", description: "B2", date: "2020" },
 ];
-
 
 
